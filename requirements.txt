@@ -2,4 +2,6 @@ streamlit
 pandas
 numpy
 mysql-connector-python
+reportlab
+fpdf2
 scikit-learn
