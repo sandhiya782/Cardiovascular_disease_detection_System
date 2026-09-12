@@ -33,13 +33,13 @@ st.markdown("### 👤 Enter Your Health Information Below")
 
 
 # Connect to MySQL database
-def create_connection():
-    return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="San@782005",  # Change this
-        database="heart_db"
-    )
+#def create_connection():
+# return mysql.connector.connect(
+#  host="localhost",
+#       user="root",
+#       password="San@782005",  # Change this
+#    database="heart_db"
+# # )
 
 # Create table if not exists
 def initialize_database():
@@ -137,7 +137,7 @@ def insert_patient_history(name, address, mobile, age, sex, cp, trestbps, chol, 
     conn.close()
     
 # Initialize database
-initialize_database()
+#initialize_database()
 
 
 # Input fields
@@ -195,8 +195,8 @@ if st.button("Predict"):
         st.markdown("🧓 Age and angina suggest you should consult a cardiologist.")
 
 # Insert into database
-    insert_patient_history(name, address, mobile, age, sex_val, cp, trestbps, chol, fbs, restecg,
-                        thalach, exang, oldpeak, slope, ca, thal, result_label)
+    #insert_patient_history(name, address, mobile, age, sex_val, cp, trestbps, chol, fbs, restecg,
+    #                  thalach, exang, oldpeak, slope, ca, thal, result_label)
 
 
 st.info("Patient result saved to database.")
