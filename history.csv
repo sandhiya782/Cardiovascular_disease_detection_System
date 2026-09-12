@@ -1,0 +1,3 @@
+Name,Age,Sex,CP,Trestbps,Chol,FBS,RestECG,Thalach,Exang,Oldpeak,Slope,CA,Thal,Result
+John Doe,54,Male,1,130,250,0,1,170,0,1.2,2,0,2,Low
+Jane Smith,45,Female,2,120,230,1,0,160,1,0.8,1,1,3,High
